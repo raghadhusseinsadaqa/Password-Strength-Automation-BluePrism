@@ -1,64 +1,92 @@
-📌 Password Strength Automation – Blue Prism Project
+🚀 Password Strength Automation – Blue Prism Project
+
 This project is a Blue Prism automation designed to analyze the strength of passwords, generate a detailed report, and automatically send the results via email.
 
-🔹 📘 Project Overview
+📘 Project Overview
+
 The automation performs the following tasks:
-1. Receive input email
--The bot starts when it receives an email request.
 
-2. Access Kaggle dataset
--Visits Kaggle daily
-Opens dataset: 10,000 most common passwords
-Downloads and extracts the data
+1️⃣ Receive Input Email
 
-3. Prepare Excel report
+The bot starts after receiving an email request.
+
+2️⃣ Access Kaggle Dataset
+
+Visits Kaggle daily
+
+Opens dataset: 10,000 Most Common Passwords
+
+Downloads and extracts the dataset
+
+3️⃣ Prepare Excel Report
 
 Removes unnecessary columns
--Adds new fields:
+
+Adds fields:
+
 Strength
+
 Estimated Time
-Extracts the password list
 
-4. Check password strength (Bitwarden)
--For each password:
-Opens Bitwarden: password-strength evaluator
--Retrieves:
-Strength level
-Estimated cracking time
+Extracts password list from the dataset
 
-5. Generate final report
--Fills Excel with results
-Creates summary sheet with password strength counts
+4️⃣ Check Password Strength (Bitwarden)
 
-Saves the final output
+For each password:
 
-6. Send the report
--Sends email with:
+Opens Bitwarden password-strength evaluator
+
+Retrieves:
+
+Strength Level
+
+Estimated Cracking Time
+
+5️⃣ Generate Final Report
+
+Fills Excel file with results
+
+Creates a summary sheet showing count of each strength level
+
+Saves the output
+
+6️⃣ Send Email with Final Results
+
+Sends email with:
+
 Subject: Password Strength Report
-Attachment: Final Excel Report
+
 Attachment: Final Excel Report
 
-🔹 📁 Project Structure
-Raghad-FinalProject       → Blue Prism automation file
-PDD.pdf                   → Process design document
-README.md                 → Project documentation
+🗂️ Project Structure
+Raghad-FinalProject      → Blue Prism automation file
+AutomatedPasswordPDD.pdf → Process design document
+README.md                → Project documentation
 
-🔹 🧰 Tools & Technologies
+🛠️ Tools & Technologies
 
 Blue Prism
-Excel
-Outlook
-Kaggle
-Bitwarden
 
-🔹 ✔️ Business Benefits
+MS Excel
+
+Outlook
+
+Kaggle
+
+Bitwarden Password Strength Tool
+
+⭐ Business Benefits
 
 80% reduction in processing time
-Automated reporting
-More accuracy & consistency
-Better monitoring using logs
 
-🔹 👩‍💻 Developer
+Automated report generation
+
+Higher accuracy & consistency
+
+Improved monitoring via system logs
+
+👩‍💻 Developer
 
 Raghad Hussien Alsadaqa
 Computer Science Graduate | Interested in Automation & RPA
+
